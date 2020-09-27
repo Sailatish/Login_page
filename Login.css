@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    margin: 0; 
+	font-family: sans-serif;
+}
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	padding: 0 !important;
+}
+.navbar-brand img {
+	  border-radius: 50%;
+	  height: 40px;
+	  margin-left: 2;
+	  width: '200%'
+}
+.navbar-nav li {
+	padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;  
+}
+.btn
+{
+	color: black;
+}
+/*--------------------banner section------------------------*/
+.box{
+  width: 600px;
+  padding: 40px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #ccc ;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 0px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+#banner
+{
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	color: #fff;
+	padding-top: 5%;
+}
+.promo-title
+{
+	font-size: 50px;
+	font-weight: 600;
+	margin-top: 100px;  
+}
+.img-fuild
+{
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	margin-top: 10px;
+}
+.play-btn
+{
+	width: 45px;
+	margin: 20px;
+}
+#banner a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.bottom-img
+{
+   width: 100%	
+}
+/*---------service section----------*/
+#services
+{
+	padding: 80px 0;
+}
+.service-img
+{
+	width: 180px;
+	margin-top: 30px;
+}
+.services
+{
+	padding: 20px;
+}
+.main
+{
+	margin-top: 60px;
+}
+h4
+{
+     padding: 5px;
+     margin-top: 25px;
+     text-transform: uppercase;
+}
+.title::before
+{
+	content: '';
+	background: #7b1798;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translateY(63px);
+}
